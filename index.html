@@ -4,11 +4,31 @@
         <title>Amateurkoch.de</title>
         <meta charset="UTF-8">
     </head>
+
+    <!-- # für id-Zuweisungen -->
+    <!-- . für class-Zuweisungen -->
+    <style>
+        span {
+            margin: 5px;
+            border: 10px solid yellow;
+            padding: 10px
+        }
+
+        #Rezepte {  
+            
+            color: chartreuse;
+        }
+
+        .Rezepte {
+            color: brown;    
+        }
+
+    </style>
     <body>
         <h1>
             <a href="index.html"><img src="Logo.jpg"></a> Amateurkoch.de
         </h1>
-        <h2>Teilen Sie Ihre eigenen Rezepte oder finden Sie Rezepte von anderen Amateurköchen</h2>
+        <h2><span id="Rezepte">Teilen</span> Sie Ihre eigenen <span>Rezepte</span> oder finden Sie <span class="Rezepte">Rezepte</span> von anderen Amateurköchen</h2>
         <p>
             <a href="form.html"><img src="button_einsenden.jpg"></a>
         </p>

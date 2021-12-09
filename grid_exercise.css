@@ -1,0 +1,22 @@
+.squareProperties {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.outer {
+    float: left;
+}
+
+#titleBoxInner {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    width: 305px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
