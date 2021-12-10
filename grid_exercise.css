@@ -6,6 +6,10 @@
     border: 1px solid black;
 }
 
+.squareProperties:hover {
+    outline: 3px solid red
+}
+
 .outer {
     float: left;
 }
@@ -20,3 +24,10 @@
     font-size: large;
 }
 
+header {
+    background: red;
+}
+
+main {
+    background:red;
+}
